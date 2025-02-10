@@ -55,5 +55,8 @@ public class JewelAndStone {
     @Test
     public void testNumJewelsInStones() {
         System.out.println(numJewelsInStones("aA", "aAAbbbb"));
+        System.out.println(
+                numJewelsInStones("Bb", "aAAbbbb")
+        );
     }
 }
